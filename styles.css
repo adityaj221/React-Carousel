@@ -1,0 +1,41 @@
+li {
+    display: inline-block;
+    list-style: outside none none;
+    padding: 2% 0 2% 2%;
+    overflow: hidden;
+}
+
+.oddLi{
+    width: 15%;
+}
+
+.evenLi{
+    width: 60%;
+}
+
+.slider{
+    height: 500px;
+    overflow: hidden;
+}
+
+span{
+    text-align: center;
+}
+
+.carousel-enter {
+  width: 0;
+}
+
+.carousel-enter.carousel-enter-active {
+  width: 15%;
+  transition: width .5s ease-in;
+}
+
+.carousel-leave {
+  width: 15%;
+}
+
+.carousel-leave.carousel-leave-active {
+  width: 0;
+  transition: width .5s ease-in;
+}
